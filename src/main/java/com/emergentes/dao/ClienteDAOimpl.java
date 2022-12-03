@@ -30,7 +30,8 @@ public class ClienteDAOimpl extends ConexionDB implements ClienteDAO {
     public void update(Cliente cliente) throws Exception {
         try {
             this.conectar();
-            PreparedStatement ps = this.conn.prepareStatement("UPDATE clientes SET nombre=?,correo=?,celular=? where id=?");
+            PreparedStatement ps = this.conn.prepareStatement("UPDATE clientes SET nombre=?,celular=? where id=?");
+      
             ps.setString(1, cliente.getNombre());
             ps.setInt(2, cliente.getCelular());
             ps.setInt(3, cliente.getId());

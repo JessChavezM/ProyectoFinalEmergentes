@@ -24,7 +24,7 @@
 
 
         <style>
-       /* Fonts Form Google Font ::- https://fonts.google.com/  -:: */
+       /*  da estilo a las pantallas ---Fonts Form Google Font ::- https://fonts.google.com/  -:: */
 @import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
 /* End Fonts */
 /* Start Global rules */

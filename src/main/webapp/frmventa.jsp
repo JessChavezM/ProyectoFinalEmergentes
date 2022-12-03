@@ -83,7 +83,7 @@
     </head>
     <body>
         <div class="container">
-            <h1>Formulario de ventyas</h1>   
+            <h1>Formulario de ventas</h1>   
             <jsp:include page="WEB-INF/menu.jsp">
                 <jsp:param name="opcion" value="ventas"/> 
             </jsp:include>
